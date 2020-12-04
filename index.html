@@ -1,61 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="Portfolio af Nicole Munch Tolnai, hvor udvalgte og egne projekter, samt kontakt oplysninger og CV bliver publiceret">
-        <meta name="keywords" content="nmtolnai, portfolio, udvalgte, egne, projekter, CV, kontaktoplysninger, rød, sort, hvid, grå, billeder, illustartioner, sphynx">
 
-        <link rel="stylesheet" href="style.css">
-        <title>nmtolnai portfolio</title>
-    </head>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Portfolio af Nicole Munch Tolnai, hvor udvalgte og egne projekter, samt kontakt oplysninger og CV bliver publiceret">
+    <meta name="keywords"
+        content="nmtolnai, portfolio, udvalgte, egne, projekter, CV, kontaktoplysninger, rød, sort, hvid, grå, billeder, illustartioner, sphynx">
 
-    <body>
-        <header>
-            <section class="nav-bar-mobil">
-                <!--Logo-->
-                <div class="sphynx-logo">
-                    <img class="logo" src="./billeder/misse_logo_hvid1.png" alt="Logo">
-                </div>
-            
-                <!--Burgermenu-->
-                <section class="nav-right">
-                    <section id="myNav" class="menu">
-                        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-                        <div class="menu-content">
-                            <a href="#">Udvalgte projekter</a>
-                            <a href="egneprojekter.html">Egne Projekter</a>
-                            <a href="kontakt.html">Kontakt mig</a>
-                        </div>
+    <link rel="stylesheet" href="style.css">
+    <title>nmtolnai portfolio</title>
+</head>
 
-                        <img class="red-logo" src="./billeder/misse_logo_rød1.png" alt="Rød Logo">
-                    </section>
-            
-                    <span onclick="openNav()">&#9776;</span>
+<body>
+    <header>
+        <section class="nav-bar-mobil">
+            <!--Logo-->
+            <div class="sphynx-logo">
+                <img class="logo" src="./billeder/misse_logo_hvid1.png" alt="Logo">
+            </div>
 
+            <!--Burgermenu-->
+            <section class="nav-right">
+                <section id="myNav" class="menu">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    <div class="menu-content">
+                        <a href="#">Udvalgte projekter</a>
+                        <a href="egneprojekter.html">Egne Projekter</a>
+                        <a href="kontakt.html">Kontakt mig</a>
+                    </div>
+
+                    <img class="red-logo" src="./billeder/misse_logo_rød1.png" alt="Rød Logo">
                 </section>
-            
-                <!--Navigations menu i desktop-->
-                <section class="nav-desktop">
-                    <a href="#">Udvalgte projekter</a>
-                    <a href="egneprojekter.html">Egne projekter</a>
-                    <a href="kontakt.html">Kontakt mig</a>
-                </section>
+
+                <span onclick="openNav()">&#9776;</span>
+
             </section>
 
-            <div class="name-logo">
-                <img src="./billeder/navnlogo.png" alt="Navnelogo">
-            </div>
-        </header>
+            <!--Navigations menu i desktop-->
+            <section class="nav-desktop">
+                <a href="#">Udvalgte projekter</a>
+                <a href="egneprojekter.html">Egne projekter</a>
+                <a href="kontakt.html">Kontakt mig</a>
+            </section>
+        </section>
 
-        <script>        
-            /*Span scrit for burgermenuen*/
-                function openNav() {
-                document.getElementById("myNav").style.width = "100%";
-                }
-                function closeNav() {
-                document.getElementById("myNav").style.width = "0%";
-                }
-        </script>
-    </body>
+        <div class="name-logo">
+            <img src="./billeder/navnlogo.png" alt="Navnelogo">
+        </div>
+    </header>
+
+    <section class="page-title">
+        <h1>Portfolio med udvalgte og egne projekter</h1>
+    </section>
+
+    <img class="grafic-img" src="./billeder/2070499.jpg" alt="Grafisk billede">
+
+    <section class="visionskills">
+        <div class="skills">
+            <h2>Kompetencer</h2>
+
+            <h3>Designprincipper</h3>
+            <h3>UI</h3>
+            <h3>Idéudvikling</h3>
+            <h3>Videoproduktion</h3>
+            <h3>Formidling</h3>
+            <h3>HTML & CSS</h3>
+            <h3>Projektstyring</h3>
+            <h3>Koncept udvikling</h3>
+        </div>
+        <div class="vision">
+            <h2>Vision</h2>
+            <p>Med et aldrig stillestående sind, kører min tanker og idéer hele tiden der ud af. Nogle af idéerne kan bruges og potentielt bygges videre på; andre er nogle sjove finurligheder, som jeg selv hygger mig ved tanken over.
+                <br>For eksempel i mit "2020, Mana, Bag rattet"-projekt fik jeg den ide, at vi skulle lave et koncept med en bil, der er bygget til, at narko-bagmænd kunne smule deres gods i bilen over grænserne. Bilen skulle være skudsikker og kompatibel til større mængder smulergods. Ideen i sig selv var uetisk og ikke særlig moralsk, men ud fra sådanne ideer får man et godt grin, og måske udvikle nye koncepter.
+                <br>Min vision er altid at tænke inde i boksen, for inde i boksen ved forbrugerne og kunderne, hvad de vil have. Derfra skabe en idé og et koncept, der er så godt, at der simpelthen ikke er plads inde i boksen til idéen, så den springer boksen.
+                <br>Jeg vil tænke frit, jeg vil tænke altid.</p>
+        </div>
+    </section>
+
+    <script>
+        /*Span scrit for burgermenuen*/
+        function openNav() {
+            document.getElementById("myNav").style.width = "100%";
+        }
+        function closeNav() {
+            document.getElementById("myNav").style.width = "0%";
+        }
+    </script>
+</body>
+
 </html>
