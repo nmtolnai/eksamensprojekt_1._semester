@@ -386,6 +386,9 @@ footer{
 
 /*SLUT - CSS til "udvalgte projekter"*/
 
+/*______________________________________________________________________________*/
+
+
 /*CSS til video på Mila Danailova-siden*/
 video{
     width: 95%;
@@ -393,3 +396,91 @@ video{
     display: block;
     margin: 40px auto 40px auto;
 }
+/*SLUT - CSS til video på Mila Danailova-siden*/
+
+/*______________________________________________________________________________*/
+
+/*CSS til egne projektersiden*/
+/*Sugar skull*/
+.about-info-white{
+    background-color: #f7f7f7;
+    padding: 0 60px 60px 60px;
+    margin-top: 4rem;
+    color: #1c1c1c;
+}
+/*SLUT - Sugar skull*/
+
+/*Walking pink*/
+.walkinpink{
+    background-color: #1c1c1c;
+    color: #f7f7f7;
+    padding-top: 40px;
+}
+
+.walkinpink h1{
+    color: #f7f7f7;
+    font-weight: lighter;
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+
+.walkinpink h3{
+    font-weight: lighter;
+}
+
+.about-info-black{
+    padding: 0px 60px 60px 60px;
+    margin-top: 4rem;
+}
+/*SLUT - Walking pink*/
+
+/*Den evige evighedsmaskine*/
+.forever{
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+
+.forever h1{
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+
+.forever h3{
+    font-weight: lighter;
+}
+
+.infoforever{
+    margin: 0 40px 40px 50px;
+}
+/*SLUT - Den evige evighedsmaskine*/
+
+/*Formidlingsvideo*/
+/*Walking pink*/
+.formidling{
+    background-color: #dc001a;
+    color: #f7f7f7;
+    padding-top: 40px;
+}
+
+.formidling h1{
+    color: #f7f7f7;
+    font-weight: lighter;
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+
+.formidling h3{
+    font-weight: lighter;
+}
+
+.about-info-red{
+    padding: 0px 60px 60px 60px;
+    margin-top: 4rem;
+}
+/*SLUT - Walking pink*/
+/*SLUT - formidlingsvideo*/
+
+/*SLUT - CSS til egne projektersiden*/
+
+/*______________________________________________________________________________*/
+
