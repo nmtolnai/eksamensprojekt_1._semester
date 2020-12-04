@@ -312,3 +312,14 @@ footer{
 /*SLUT - Index CSS*/
 
 /*______________________________________________________________________________*/
+
+/*Mana del 2 CSS begynder her*/
+
+/*Cover billede*/
+.presentation img{
+    width: 85%;
+    height: auto;
+    display: block;
+    margin: 20px auto 0 auto;
+}
+/*SLUT - Mana del 2 CSS*/
