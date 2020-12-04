@@ -176,3 +176,59 @@ span{
 /*SLUT - sektion med kompetencer og vision*/
 
 /*CSS for tidlinjen kommer her*/
+
+/*Den verticale linje for tidslinjen*/
+.timeline{
+    box-sizing: border-box;
+    background-color: #1c1c1c;
+    position: relative;
+    margin: 0 auto;
+    padding: 5em 0;
+}
+
+.timeline::after{
+    content: '';
+    position: absolute;
+    width: 3px;
+    background-color: #f7f7f7;
+    top: 0;
+    bottom: 0;
+    left: 8%;
+    margin-left: -3px;
+}
+
+/*containeren til indholdet i tidslinjen*/
+.container{
+    padding: 10px 40px;
+    position: relative;
+}
+
+/*tekst*/
+.content{
+    color: #f7f7f7;
+    margin-top: 20px;
+    margin-left: 20px;
+    letter-spacing: 1px;
+    font-weight: lighter;
+}
+
+/*de røde billeder*/
+.red-imgs{
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    margin-left: 39px;
+}
+
+/*cirklerne på tidlinjen*/
+.container::after {
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 15px;
+    background-color: #1c1c1c;
+    border: 2px solid #f7f7f7;
+    top: 38px;
+    border-radius: 50%;
+    z-index: 1;
