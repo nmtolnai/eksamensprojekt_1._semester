@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: centurygothic;
+}
+
+@font-face{
+    font-family: centurygothic;
+    src: url(./GOTHIC.TTF);
+}
+
+/*body*/
+body{
+    background-color: #f7f7f7;
+}
+
+/*-----Knap design på siden-----*/
+/*SLUT*/
+
+/*Header*/
+header{
+    background-image: url(./billeder/header_billede.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    min-height: 13rem;
+}
+
+/*Logo*/
+.logo {
+    width: 22%;
+    height: auto;
+    margin: 2% 0 0 3%;
+}
+
+/*Nav bar med logo og burgermenu der skal flexe*/
+.nav-bar-mobil{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;    
+}
+
+/*Burger-menu*/
+.menu {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: #1c1c1c;
+    overflow-x: hidden;
+    transition: 0.5s;
+  }
+  
+.menu-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+  }
+
+.menu a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 2em;
+    color: #f7f7f7;
+    display: block;
+    transition: 0.3s;
+  }
+
+.menu .closebtn {
+    position: absolute;
+    top: 0.3rem;
+    right: 1rem;
+    font-size: 4em;
+    color: #f7f7f7;
+}
+/*Burger-menu slut*/
+
+/*rød logo inde i burgermenuen*/
+.red-logo{
+    width: 30%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 15rem auto 3rem auto;
+}
+
+/*burger menuens streger*/
+span{
+    font-size:35px;
+    cursor:pointer;
+    color: #f7f7f7;
+    margin: 11px;
+}
+
+/*navne logoet med N M TOLNAI*/
+.name-logo img{
+    width: 47%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*navigations menu til desktop*/
+.nav-desktop{
+    display: none;
+}
+/*Header - Slut*/
