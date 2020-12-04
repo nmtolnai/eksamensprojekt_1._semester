@@ -121,6 +121,24 @@ span{
     color: #1c1c1c;
 }
 
+/*-----Knap design på siden-----*/
+.btn{
+    display: block;
+    width: 130px;
+    font-size: 16px;
+    font-weight: lighter;
+    text-decoration: none;
+    text-align: center;
+    letter-spacing: 2px;
+    color: #1c1c1c;
+    border-top: solid #dc001a;
+    border-bottom: solid #dc001a;
+    cursor: pointer;
+    padding: 7px 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 /*______________________________________________________________________________*/
 
 /*Index CSS*/
@@ -130,7 +148,7 @@ span{
     width: 80%;
     height: auto;
     display: block;
-    margin: 2rem auto 0 auto;
+    margin: 2rem auto 2rem auto;
 }
 
 /*sektion med kompetencer og vision*/
@@ -176,3 +194,80 @@ span{
 /*SLUT - sektion med kompetencer og vision*/
 
 /*CSS for tidlinjen kommer her*/
+
+/*Den verticale linje for tidslinjen*/
+.timeline{
+    box-sizing: border-box;
+    background-color: #1c1c1c;
+    position: relative;
+    margin: 0 auto;
+    padding: 5em 0;
+}
+
+.timeline::after{
+    content: '';
+    position: absolute;
+    width: 2px;
+    background-color: #f7f7f7;
+    top: 0;
+    bottom: 0;
+    left: 8%;
+    margin-left: -3px;
+}
+
+/*containeren til indholdet i tidslinjen*/
+.container{
+    padding: 10px 40px;
+    position: relative;
+}
+
+/*tekst*/
+.content{
+    color: #f7f7f7;
+    margin-top: 20px;
+    margin-left: 20px;
+    letter-spacing: 1px;
+    font-weight: lighter;
+}
+
+/*de røde billeder*/
+.red-imgs{
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    margin-left: 39px;
+}
+
+/*cirklerne på tidlinjen*/
+.container::after {
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 15px;
+    background-color: #1c1c1c;
+    border: 2px solid #f7f7f7;
+    top: 38px;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+/*sektion med "se egne udvalgte projekter"*/
+.selected-projects{
+    margin: 3rem 0 3rem 0;
+}
+
+.selected-projects h1{
+    margin-bottom: 2rem;
+}
+
+.grafic-img2{
+    width: 90%;
+    height: auto;
+    display: block;
+    margin: 2rem auto 2rem auto;
+}
+
+/*SLUT - Index CSS*/
+
+/*______________________________________________________________________________*/
