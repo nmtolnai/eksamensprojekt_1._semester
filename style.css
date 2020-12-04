@@ -179,6 +179,23 @@ footer{
     margin-left: auto;
     margin-right: auto;
 }
+
+.btn2{
+    display: block;
+    width: 130px;
+    font-size: 16px;
+    font-weight: lighter;
+    text-decoration: none;
+    text-align: center;
+    letter-spacing: 2px;
+    color: #f7f7f7;
+    border-top: solid #dc001a;
+    border-bottom: solid #dc001a;
+    cursor: pointer;
+    padding: 7px 0;
+    margin-left: auto;
+    margin-right: auto;
+}
 /*SLUT - Fælles CSS for de forskellige sider*/
 
 /*______________________________________________________________________________*/
@@ -312,3 +329,48 @@ footer{
 /*SLUT - Index CSS*/
 
 /*______________________________________________________________________________*/
+
+/*CSS til "udvalgte projekter" begynder her*/
+
+/*Cover billede*/
+.presentation img{
+    width: 85%;
+    height: auto;
+    display: block;
+    margin: 20px auto 0 auto;
+}
+
+/*sektion med fokuspunkter og omhandling*/
+.about-info{
+    padding: 40px 60px 40px 60px;
+    margin-top: 4rem;
+    color: #f7f7f7;
+    background-color: #1c1c1c;
+}
+/*Kompetence afsnit*/
+.focuspoints h3{
+    font-size: 28px;
+    letter-spacing: 1px;
+    font-weight: lighter;
+}
+
+/*Vision afsnit*/
+.about{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.about p{
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.img-website img{
+    width: 85%;
+    height: auto;
+    display: block;
+    margin: 30px auto 30px auto;
+}
+
+/*SLUT - CSS til "udvalgte projekter"*/
+/*SLUT - Mana del 2 CSS*/
