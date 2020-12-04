@@ -372,5 +372,17 @@ footer{
     margin: 30px auto 30px auto;
 }
 
+.img-mobile{
+    background-color: #1c1c1c;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.img-mobile img{
+    width: 80%;
+    height: auto;
+    display: block;
+    margin: 30px auto 30px auto;
+}
+
 /*SLUT - CSS til "udvalgte projekter"*/
 /*SLUT - Mana del 2 CSS*/
