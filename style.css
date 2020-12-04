@@ -14,11 +14,7 @@ body{
     background-color: #f7f7f7;
 }
 
-/*-----Knap design på siden-----*/
-/*SLUT*/
-
-/*Fælles CSS for de forskellige sider*/
-/*Header*/
+/*Header starter her*/
 header{
     background-image: url(./billeder/header_billede.jpg);
     background-repeat: no-repeat;
@@ -110,7 +106,52 @@ span{
 .nav-desktop{
     display: none;
 }
-/*Header - Slut*/
+/*SLUT - Header*/
+
+/*Footer starter her*/
+footer{
+    background-color: #1c1c1c;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.name{
+    width: 65%;
+    height: auto;
+    display: block;
+    margin-left:auto;
+    margin-right: auto;
+}
+
+.sphynx{
+    width: 35%;
+    height: auto;
+    display: block;
+    margin-left:auto;
+    margin-right: auto;
+    margin-top: 15px;
+}
+
+.info{
+    color: #f7f7f7;
+    padding: 0 30px 0 30px;
+}
+
+.info h3{
+    letter-spacing: 2px;
+    font-weight: lighter;
+    margin-top: 30px;
+    font-size: 12px;
+}
+
+.info p{
+    letter-spacing: 1px;
+    font-weight: lighter;
+    font-size: 18px;
+}
+/*SLUT - Footer*/
+
+/*_______________________Fælles CSS for de forskellige sider_______________________*/
 
 /*CSS til sidernes title*/
 .page-title{
@@ -121,7 +162,7 @@ span{
     color: #1c1c1c;
 }
 
-/*-----Knap design på siden-----*/
+/*Knap design på siderne*/
 .btn{
     display: block;
     width: 130px;
@@ -138,11 +179,11 @@ span{
     margin-left: auto;
     margin-right: auto;
 }
+/*SLUT - Fælles CSS for de forskellige sider*/
 
 /*______________________________________________________________________________*/
 
-/*Index CSS*/
-
+/*Index CSS begynder her*/
 /*billede under title*/
 .grafic-img{
     width: 80%;
