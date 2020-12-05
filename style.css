@@ -41,7 +41,7 @@ header{
     height: 100%;
     width: 0;
     position: fixed;
-    z-index: 1;
+    z-index: 2;
     top: 0;
     right: 0;
     background-color: #1c1c1c;
@@ -252,7 +252,6 @@ footer{
 /*SLUT - sektion med kompetencer og vision*/
 
 /*CSS for tidlinjen kommer her*/
-
 /*Den verticale linje for tidslinjen*/
 .timeline{
     box-sizing: border-box;
@@ -520,3 +519,62 @@ video{
 }
 /*SLUT - CSS til kontakt mig siden*/
 
+
+
+/*CSS til Udvalgte projekter side begynder her*/
+/*Den verticale linje for tidslinjen*/
+.timeline-2{
+    box-sizing: border-box;
+    background-color: #f7f7f7;
+    position: relative;
+    margin: 0 auto;
+    padding: 5em 0;
+}
+
+.timeline-2::after{
+    content: '';
+    position: absolute;
+    width: 2px;
+    background-color: #dc001a;
+    top: 0;
+    bottom: 0;
+    left: 8%;
+    margin-left: -3px;
+}
+
+/*containeren til indholdet i tidslinjen*/
+.container-2{
+    padding: 10px 40px;
+    position: relative;
+}
+
+/*tekst*/
+.content-2{
+    color: #1c1c1c;
+    margin-top: 20px;
+    margin-left: 20px;
+    letter-spacing: 1px;
+    font-weight: lighter;
+}
+
+/*de røde billeder*/
+.red-imgs{
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    margin-left: 39px;
+}
+
+/*cirklerne på tidlinjen*/
+.container-2::after {
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 15px;
+    background-color: #f7f7f7;
+    border: 2px solid #dc001a;
+    top: 38px;
+    border-radius: 50%;
+    z-index: 1;
+}
