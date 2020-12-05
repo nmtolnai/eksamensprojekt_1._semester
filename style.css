@@ -80,8 +80,6 @@ header{
     width: 30%;
     height: auto;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
     margin: 15rem auto 3rem auto;
 }
 
@@ -308,6 +306,7 @@ footer{
     border-radius: 50%;
     z-index: 1;
 }
+/*SLUT - tidslinje*/
 
 /*sektion med "se egne udvalgte projekter"*/
 .selected-projects{
@@ -519,7 +518,7 @@ video{
 }
 /*SLUT - CSS til kontakt mig siden*/
 
-
+/*______________________________________________________________________________*/
 
 /*CSS til Udvalgte projekter side begynder her*/
 /*Den verticale linje for tidslinjen*/
@@ -577,4 +576,197 @@ video{
     top: 38px;
     border-radius: 50%;
     z-index: 1;
+}
+/*SLUT - CSS til Udvalgte projekter side*/
+
+
+/*______________________________________________________________________________*/
+
+/*__________________________Medie Queries min. 768px___tablet__________________________*/
+@media screen and (min-width:768px){
+    /*Medie Queries til CSS der går igennem alle siderne*/
+    /*Header begynder her*/
+    header{
+        min-height: 20rem;
+    }
+
+    /*Logo*/
+    .logo{
+        width: 36%;
+    }
+
+    /*Streger til burger menu*/
+    span{
+        font-size:60px;
+        margin-right: 20px;
+    }
+
+    /*Link inde i burgermenu*/
+    .menu a {
+        padding: 30px;
+        font-size: 4rem;
+    }
+
+    /*rød logo inde i burgermenuen*/
+    .red-logo{
+        width: 30%;
+        margin: 18rem auto 4rem auto;
+    }
+
+    /*navne logoet med N M TOLNAI*/
+    .name-logo img{
+        width: 55%;
+        margin-top: 20px;
+    }
+    /*SLUT - Header*/
+
+    /*CSS til sidernes title*/
+    .page-title{
+        font-size: 35px;
+        margin: 25px 20px 0 25px;
+    }
+
+    /*Knap design på siderne*/
+    .btn{
+        width: 160px;
+        font-size: 25px;
+        padding: 7px 0;
+    }
+
+    /*Footer*/
+    footer{
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+    
+    .name{
+        width: 65%;
+    }
+    
+    .sphynx{
+        width: 35%;
+        margin-top: 20px;
+    }
+
+    .info h3{
+        margin: 30px 50px 0 50px;
+        font-size: 20px;
+    }
+    
+    .info p{
+        margin: 0 50px 0 50px;
+        font-size: 23px;
+    }
+    /*SLUT - Footer*/
+    /*SLUT - Medie Queries til CSS der går igennem alle siderne*/
+
+    /*Medie Queries til index siden*/
+    /*sektion med kompetencer og vision*/
+    .visionskills{
+        padding: 40px 30px 40px 30px;
+        margin: 5rem 2rem 5rem 2rem;
+    }
+    /*Kompetence afsnit*/
+    .skills{
+        margin-left: 30%;
+    }
+
+    .skills h2{
+        font-size: 24px;
+    }
+
+    .skills h3{
+        font-size: 33px;
+        
+    }
+
+    /*Vision afsnit*/
+    .vision{
+        margin:50px 10px 0 10px;
+    }
+
+    .vision h2{
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+
+    .vision p{
+        font-size: 16px;
+        line-height: 20px;
+    }
+    /*SLUT - sektion med kompetencer og vision*/
+
+    /*CSS for tidlinjen kommer her*/
+    /*Den verticale linje for tidslinjen*/
+    .timeline::after{
+        width: 3px;
+    }
+
+    /*containeren til indholdet i tidslinjen*/
+    .container{
+        padding: 20px 40px;
+        margin-top: 30px;
+    }
+
+    /*tekst*/
+    .content{
+        margin-left: 50px;
+        font-weight: lighter;
+    }
+
+    .content h3{
+        font-size: 22px;
+    }
+
+    /*de røde billeder*/
+    .red-imgs{
+        width: 97%;
+        height: auto;
+        margin-top: 20px;
+        margin-left: 40px;
+    }
+
+    /*cirklerne på tidlinjen*/
+    .container::after {
+        left: 48px;
+        border: 3px solid #f7f7f7;
+    }
+    /*SLUT - Medie Queries til index siden*/
+
+    /*Medie queries til udvalgte projekter siden*/
+    /*CSS for tidlinjen kommer her*/
+    /*Den verticale linje for tidslinjen*/
+    .timeline-2::after{
+        width: 3px;
+        background-color: #1c1c1c;
+    }
+
+    /*containeren til indholdet i tidslinjen*/
+    .container-2{
+        padding: 20px 40px;
+        margin-top: 30px;
+    }
+
+    /*tekst*/
+    .content-2{
+        margin-left: 50px;
+        font-weight: lighter;
+    }
+
+    .content-2 h3{
+        font-size: 22px;
+    }
+
+    /*cirklerne på tidlinjen*/
+    .container-2::after {
+        left: 48px;
+        border: 3px solid #dc001a;
+    }
+    /*SLUT - Medie queries til udvalgte projekter siden*/
+
+    /*Medie queries til egne projekter siden*/
+    /*SLUT - Medie queries til egne projekter siden*/
+
+
+
 }
