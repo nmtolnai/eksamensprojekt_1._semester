@@ -1257,6 +1257,31 @@ video{
     /*SLUT - Medie Queries CSS til egne projekter-siden*/
 
     /*Medie Queries CSS til kontakt mig-siden*/
+    .MyInfo .oplysninger p{
+        font-size: 16px;
+    }
+
+    .MyInfo img{
+        width: 60%;
+    }
+
+    .cv{
+        flex-wrap: wrap-reverse;
+        padding: 50px 80px 30px 80px;
+    }
+
+    .cv .joberfaring{
+        margin-top: 10px;
+        padding-bottom: 50px;
+    }
+
+    .cv h3{
+        font-size: 22px;
+    }
+
+    .cv p{
+        font-size: 13px;
+    }
     /*SLUT - Medie Queries CSS til kontakt mig-siden*/
 
     /*Medie Queries CSS til de forskellige projekters sider, heraf mana til rumrejsen*/
