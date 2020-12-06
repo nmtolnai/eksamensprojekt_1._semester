@@ -1176,6 +1176,84 @@ video{
     /*SLUT - Medie Queries CSS til udvalgte projekter-siden*/
 
     /*Medie Queries CSS til egne projekter-siden*/
+    /*titler på siden*/
+    .sugarskull .presentation .page-title h1{
+        font-size: 35px;
+    }
+
+    .walkinpink .presentation .page-title h1{
+        font-size: 35px;
+    }
+
+    .forever .presentation .page-title h1{
+        font-size: 35px;
+    }
+
+    .formidling .presentation .page-title h1{
+        font-size: 35px;
+    }
+
+    /*billederne på siden*/
+    .sugarskull .presentation img{
+        width: 40%;
+    }
+
+    .walkinpink .presentation img{
+        width: 55%;
+    }
+
+    .forever .presentation img{
+        width: 35%;
+    }
+
+    /*faktaboksene på siden*/
+    .about-info-white .focuspoints{
+        border-left: 3px solid #dc001a;
+        border-right: 3px solid #dc001a;
+        border-top: none;
+        border-bottom: none;
+        margin-left: 120px;
+        margin-right: 120px;
+    }
+
+    .about-info-white .focuspoints h3{
+        font-size: 25px;
+        margin-bottom: 5px;
+    }
+
+    .forever .infoforever p{
+        font-size: 13px;
+        padding-left: 70px;
+        padding-right: 70px;
+    }
+
+    .about-info-black .focuspoints{
+        border-left: 3px solid #dc001a;
+        border-right: 3px solid #dc001a;
+        border-top: none;
+        border-bottom: none;
+        margin-left: 120px;
+        margin-right: 120px;
+    }
+
+    .about-info-black .focuspoints h3{
+        font-size: 25px;
+        margin-bottom: 5px;
+    }
+
+    .about-info-red .focuspoints{
+        border-left: 3px solid #f7f7f7;
+        border-right: 3px solid #f7f7f7;
+        border-top: none;
+        border-bottom: none;
+        margin-left: 120px;
+        margin-right: 120px;
+    }
+
+    .about-info-red .focuspoints h3{
+        font-size: 25px;
+        margin-bottom: 5px;
+    }
     /*SLUT - Medie Queries CSS til egne projekter-siden*/
 
     /*Medie Queries CSS til kontakt mig-siden*/
