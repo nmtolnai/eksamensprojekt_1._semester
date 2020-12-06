@@ -382,6 +382,10 @@ footer{
     margin: 30px auto 30px auto;
 }
 
+.img-mobile-expand{
+    display: none;
+}
+
 /*SLUT - CSS til "udvalgte projekter"*/
 
 /*______________________________________________________________________________*/
@@ -688,7 +692,7 @@ video{
     }
 
     .vision p{
-        font-size: 16px;
+        font-size: 18px;
         line-height: 20px;
     }
     /*SLUT - sektion med kompetencer og vision*/
@@ -909,6 +913,52 @@ video{
         line-height: 25px;
     }
     /*SLUT - Medie queries til kontakt mig siden*/
+
+    /*Medie queries til de udvalgte projekters sider, heraf mana til rumrejsen*/
+    .img-mobile{
+        display: none;
+    }
+    
+    .img-mobile-expand{
+        display: flex;
+        background-color: #1c1c1c;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .img-mobile-expand img{
+        width: 80%;
+        height: auto;
+        display: block;
+        margin: 30px auto 30px auto;
+    }
+
+    .about-info{
+        padding: 70px 0 70px 0;
+    }
+
+    .about-info .focuspoints{
+        text-align: center;
+    }
+
+    .about-info .about{
+        text-align: center;
+    }
+
+    .about-info .about p{
+        font-size: 17px;
+        padding: 0 40px 0 40px;
+    }
+
+    .btn2{
+        width: 150px;
+        font-size: 20px;
+    }
+
+
+
+    /*SLUT - Medie queries til de udvalgte projekters sider, heraf mana til rumrejsen*/
+
 
 
 
