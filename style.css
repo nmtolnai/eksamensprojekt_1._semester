@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     font-family: centurygothic;
+    box-sizing: border-box;
 }
 
 @font-face{
@@ -998,14 +999,14 @@ video{
 
     /*navne logoet med N M TOLNAI*/
     .name-logo img{
-        width: 45%;
+        width: 40%;
         margin-top: 80px;
     }
     /*SLUT - Header*/
 
     /*CSS til sidernes title*/
     .page-title{
-        font-size: 35px;
+        font-size: 30px;
         margin: 25px 20px 0 25px;
     }
 
@@ -1014,7 +1015,7 @@ video{
     }
 
     .grafic-img2{
-        width: 70%;
+        width: 60%;
         margin-top: 70px;
     }
 
@@ -1043,21 +1044,21 @@ video{
     }
     
     .name{
-        width: 55%;
+        width: 45%;
     }
     
     .sphynx{
-        width: 25%;
+        width: 20%;
         margin-top: 20px;
     }
 
     .info h3{
         margin-top: 30px;
-        font-size: 10px;
+        font-size: 8px;
     }
     
     .info p{
-        font-size: 15px;
+        font-size: 13px;
     }
     /*SLUT - Footer*/
     /*SLUT - Medie Queries til CSS der går igennem alle siderne*/
@@ -1081,11 +1082,11 @@ video{
     }
 
     .skills h2{
-        font-size: 20px;
+        font-size: 18px;
     }
 
     .skills h3{
-        font-size: 28px;
+        font-size: 25px;
     }
 
     .vision{
@@ -1094,14 +1095,71 @@ video{
     }
 
     .vision h2{
-        font-size: 20px;
+        font-size: 18px;
     }
 
     .vision p{
-        font-size: 15px;
+        font-size: 14px;
         letter-spacing: 1px;
         line-height: 20px;
     }
+
+    /*CSS for tidlinjen kommer her*/
+    /*Den verticale linje for tidslinjen*/
+
+    .timeline::after{
+        width: 2px;
+        left: 50%;
+    }
+
+    /*tekst*/
+    .content{
+        color: #f7f7f7;
+        margin: 0;
+        font-weight: lighter;
+        padding: 0;
+    }
+
+    /*de røde billeder*/
+    .red-imgs{
+        margin-left: 0;
+    }
+
+    /*cirklerne på tidlinjen*/
+    .left::after {
+        left: 97%;
+    }
+
+    .left{
+        width: 50%;
+        padding-top: 45px;
+    }
+
+    .left h3{
+        text-align: end;
+    }
+
+    .left img{
+        width: 100%;
+    }
+
+    .right{
+        position: relative;
+        left: 50%;
+        width: 50%;
+        padding-top: 45px;
+        padding-left: 35px;
+    }
+
+    .right::after{
+        left: -3%;
+    }
+
+    .right img{
+        width: 100%;
+    }
+    /*SLUT - tidslinje*/
+
     /*SLUT - Medie Queries CSS til index-siden*/
 
     /*Medie Queries CSS til udvalgte projekter-siden*/
