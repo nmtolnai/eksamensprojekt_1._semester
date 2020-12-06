@@ -382,6 +382,10 @@ footer{
     margin: 30px auto 30px auto;
 }
 
+.img-mobile-expand{
+    display: none;
+}
+
 /*SLUT - CSS til "udvalgte projekter"*/
 
 /*______________________________________________________________________________*/
@@ -395,128 +399,6 @@ video{
     margin: 40px auto 40px auto;
 }
 /*SLUT - CSS til video på Mila Danailova-siden*/
-
-/*______________________________________________________________________________*/
-
-/*CSS til egne projektersiden*/
-/*Sugar skull*/
-.about-info-white{
-    background-color: #f7f7f7;
-    padding: 0 60px 60px 60px;
-    margin-top: 4rem;
-    color: #1c1c1c;
-}
-/*SLUT - Sugar skull*/
-
-/*Walking pink*/
-.walkinpink{
-    background-color: #1c1c1c;
-    color: #f7f7f7;
-    padding-top: 40px;
-}
-
-.walkinpink h1{
-    color: #f7f7f7;
-    font-weight: lighter;
-    font-size: 30px;
-    padding-bottom: 10px;
-}
-
-.walkinpink h3{
-    font-weight: lighter;
-}
-
-.about-info-black{
-    padding: 0px 60px 60px 60px;
-    margin-top: 4rem;
-}
-/*SLUT - Walking pink*/
-
-/*Den evige evighedsmaskine*/
-.forever{
-    padding-top: 40px;
-    padding-bottom: 50px;
-}
-
-.forever h1{
-    font-size: 30px;
-    padding-bottom: 10px;
-}
-
-.forever h3{
-    font-weight: lighter;
-}
-
-.infoforever{
-    margin: 0 40px 40px 50px;
-}
-/*SLUT - Den evige evighedsmaskine*/
-
-/*Formidlingsvideo*/
-/*Walking pink*/
-.formidling{
-    background-color: #dc001a;
-    color: #f7f7f7;
-    padding-top: 40px;
-}
-
-.formidling h1{
-    color: #f7f7f7;
-    font-weight: lighter;
-    font-size: 30px;
-    padding-bottom: 10px;
-}
-
-.formidling h3{
-    font-weight: lighter;
-}
-
-.about-info-red{
-    padding: 0px 60px 60px 60px;
-    margin-top: 4rem;
-}
-/*SLUT - Walking pink*/
-/*SLUT - formidlingsvideo*/
-
-/*SLUT - CSS til egne projektersiden*/
-
-/*______________________________________________________________________________*/
-
-/*CSS til kontakt mig siden begynder her*/
-.oplysninger{
-    margin: 40px 40px 50px 50px;
-    color: #1c1c1c;
-}
-
-.MyInfo img{
-    width: 80%;
-    height: auto;
-    display: block;
-    margin: 0 auto 50px auto;
-}
-
-/*CSS til cv*/
-.cv{
-    background-color: #dc001a;
-    padding: 50px 20px 50px 20px;
-    color: #f7f7f7;
-}
-
-.cv h3{
-    margin-top: 30px;
-    margin-bottom: 20px;
-    font-size: 30px;
-    text-align: center;
-    letter-spacing: 1px;
-    font-weight: lighter;
-}
-
-.cv p{
-    line-height: 20px;
-    padding-left: 25%;
-    padding-bottom: 30px;
-}
-/*SLUT - CSS til kontakt mig siden*/
 
 /*______________________________________________________________________________*/
 
@@ -579,15 +461,134 @@ video{
 }
 /*SLUT - CSS til Udvalgte projekter side*/
 
+/*______________________________________________________________________________*/
+
+/*CSS til egne projektersiden*/
+/*Sugar skull*/
+.about-info-white{
+    background-color: #f7f7f7;
+    padding: 0 60px 60px 60px;
+    margin-top: 4rem;
+    color: #1c1c1c;
+}
+/*SLUT - Sugar skull*/
+
+/*Walking pink*/
+.walkinpink{
+    background-color: #1c1c1c;
+    color: #f7f7f7;
+    padding-top: 40px;
+}
+
+.walkinpink h1{
+    color: #f7f7f7;
+    font-weight: lighter;
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+
+.walkinpink h3{
+    font-weight: lighter;
+}
+
+.about-info-black{
+    padding: 0px 60px 60px 60px;
+    margin-top: 4rem;
+}
+/*SLUT - Walking pink*/
+
+/*Den evige evighedsmaskine*/
+.forever{
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+
+.forever h1{
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+
+.forever h3{
+    font-weight: lighter;
+}
+
+.infoforever{
+    margin: 0 40px 40px 50px;
+}
+/*SLUT - Den evige evighedsmaskine*/
+
+/*Formidlingsvideo*/
+.formidling{
+    background-color: #dc001a;
+    color: #f7f7f7;
+    padding-top: 40px;
+}
+
+.formidling h1{
+    color: #f7f7f7;
+    font-weight: lighter;
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+
+.formidling h3{
+    font-weight: lighter;
+}
+
+.about-info-red{
+    padding: 0px 60px 60px 60px;
+    margin-top: 4rem;
+}
+/*SLUT - formidlingsvideo*/
+
+/*SLUT - CSS til egne projektersiden*/
 
 /*______________________________________________________________________________*/
 
-/*__________________________Medie Queries min. 768px___tablet__________________________*/
+/*CSS til kontakt mig siden begynder her*/
+.oplysninger{
+    margin: 40px 40px 50px 50px;
+    color: #1c1c1c;
+}
+
+.MyInfo img{
+    width: 80%;
+    height: auto;
+    display: block;
+    margin: 0 auto 50px auto;
+}
+
+/*CSS til cv*/
+.cv{
+    background-color: #dc001a;
+    padding: 50px 20px 50px 20px;
+    color: #f7f7f7;
+}
+
+.cv h3{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 30px;
+    text-align: center;
+    letter-spacing: 1px;
+    font-weight: lighter;
+}
+
+.cv p{
+    line-height: 20px;
+    padding-left: 25%;
+    padding-bottom: 30px;
+}
+/*SLUT - CSS til kontakt mig siden*/
+
+/*______________________________________________________________________________*/
+
+/*Medie Queries min. 768px til tablet*/
 @media screen and (min-width:768px){
     /*Medie Queries til CSS der går igennem alle siderne*/
     /*Header begynder her*/
     header{
-        min-height: 20rem;
+        min-height: 21rem;
     }
 
     /*Logo*/
@@ -640,11 +641,11 @@ video{
     }
     
     .name{
-        width: 65%;
+        width: 55%;
     }
     
     .sphynx{
-        width: 35%;
+        width: 25%;
         margin-top: 20px;
     }
 
@@ -663,7 +664,7 @@ video{
     /*Medie Queries til index siden*/
     /*sektion med kompetencer og vision*/
     .visionskills{
-        padding: 40px 30px 40px 30px;
+        padding: 100px 30px 100px 30px;
         margin: 5rem 2rem 5rem 2rem;
     }
     /*Kompetence afsnit*/
@@ -691,7 +692,7 @@ video{
     }
 
     .vision p{
-        font-size: 16px;
+        font-size: 18px;
         line-height: 20px;
     }
     /*SLUT - sektion med kompetencer og vision*/
@@ -765,7 +766,200 @@ video{
     /*SLUT - Medie queries til udvalgte projekter siden*/
 
     /*Medie queries til egne projekter siden*/
+    /*Sugarskull sektion*/
+    .sugarskull{
+        margin-bottom: 50px;
+    }
+    .sugarskull .presentation img{
+        width: 80%;
+        margin-bottom: 80px;
+    }
+
+    .sugarskull .focuspoints{
+        border-top: 3px solid #dc001a;
+        border-bottom: 3px solid #dc001a;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .sugarskull .focuspoints h3{
+        font-size: 35px;
+        margin-bottom: 2px;
+        text-align: center;
+    }
+
+    /*Walking pink sektion*/
+    .walkinpink{
+        margin-bottom: 50px;
+    }
+
+    .walkinpink .page-title h1{
+        font-size: 50px;
+        margin: 60px 20px 0 25px;
+    }
+
+    .walkinpink .presentation img{
+        width: 80%;
+        margin-bottom: 80px;
+    }
+
+    .walkinpink .focuspoints{
+        border-top: 3px solid #dc001a;
+        border-bottom: 3px solid #dc001a;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        margin-bottom: 50px;
+    }
+
+    .walkinpink .focuspoints h3{
+        font-size: 35px;
+        margin-bottom: 2px;
+        text-align: center;
+    }
+
+    /*Den evige evighedsmaskine sektion*/
+    .forever{
+        margin-bottom: 50px;
+    }
+
+    .forever .page-title h1{
+        font-size: 50px;
+        margin: 0 20px 0 25px;
+    }
+
+    .forever .presentation img{
+        width: 80%;
+        margin-bottom: 80px;
+    }
+
+    .forever .focuspoints{
+        border-top: 3px solid #dc001a;
+        border-bottom: 3px solid #dc001a;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .forever .focuspoints h3{
+        font-size: 35px;
+        margin-bottom: 2px;
+        text-align: center;
+    }
+
+    .forever .infoforever p{
+        font-size: 22px;
+        text-align: center;
+        padding: 20px 0 20px 0;
+    }
+
+    /*Formidlingsvideo sektion sektion*/
+    .formidling .page-title h1{
+        font-size: 50px;
+        margin: 60px 20px 0 25px;
+    }
+
+    .formidling .presentation img{
+        width: 80%;
+        margin-bottom: 80px;
+    }
+
+    .formidling .focuspoints{
+        border-top: 3px solid #f7f7f7;
+        border-bottom: 3px solid #f7f7f7;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        margin-bottom: 50px;
+    }
+
+    .formidling .focuspoints h3{
+        font-size: 35px;
+        margin-bottom: 2px;
+        text-align: center;
+    }
     /*SLUT - Medie queries til egne projekter siden*/
+
+    /*Medie queries til kontakt mig siden*/
+    .MyInfo .page-title h1{
+        font-size: 40;
+        padding: 0 20px 0 20px;
+    }
+
+    .MyInfo .oplysninger p{
+        text-align: center;
+        font-size: 25px;
+        padding: 50px 0 50px 0;
+    }
+
+    .cv{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    .cv .joberfaring p{
+        padding: 0 40px 0 40px;
+    }
+
+    .cv h3{
+        text-align: center;
+        font-size: 32px;
+        margin-top: 40px;
+    }
+
+    .cv p{
+        text-align: center;
+        padding-left: 0;
+        font-size: 20px;
+        line-height: 25px;
+    }
+    /*SLUT - Medie queries til kontakt mig siden*/
+
+    /*Medie queries til de udvalgte projekters sider, heraf mana til rumrejsen*/
+    .img-mobile{
+        display: none;
+    }
+    
+    .img-mobile-expand{
+        display: flex;
+        background-color: #1c1c1c;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .img-mobile-expand img{
+        width: 80%;
+        height: auto;
+        display: block;
+        margin: 30px auto 30px auto;
+    }
+
+    .about-info{
+        padding: 70px 0 70px 0;
+    }
+
+    .about-info .focuspoints{
+        text-align: center;
+    }
+
+    .about-info .about{
+        text-align: center;
+    }
+
+    .about-info .about p{
+        font-size: 17px;
+        padding: 0 40px 0 40px;
+    }
+
+    .btn2{
+        width: 150px;
+        font-size: 20px;
+    }
+
+
+
+    /*SLUT - Medie queries til de udvalgte projekters sider, heraf mana til rumrejsen*/
+
+
 
 
 
