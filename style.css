@@ -587,7 +587,7 @@ video{
     /*Medie Queries til CSS der går igennem alle siderne*/
     /*Header begynder her*/
     header{
-        min-height: 20rem;
+        min-height: 21rem;
     }
 
     /*Logo*/
@@ -640,11 +640,11 @@ video{
     }
     
     .name{
-        width: 65%;
+        width: 55%;
     }
     
     .sphynx{
-        width: 35%;
+        width: 25%;
         margin-top: 20px;
     }
 
@@ -663,7 +663,7 @@ video{
     /*Medie Queries til index siden*/
     /*sektion med kompetencer og vision*/
     .visionskills{
-        padding: 40px 30px 40px 30px;
+        padding: 100px 30px 100px 30px;
         margin: 5rem 2rem 5rem 2rem;
     }
     /*Kompetence afsnit*/
@@ -765,6 +765,115 @@ video{
     /*SLUT - Medie queries til udvalgte projekter siden*/
 
     /*Medie queries til egne projekter siden*/
+    /*Sugarskull sektion*/
+    .sugarskull{
+        margin-bottom: 50px;
+    }
+    .sugarskull .presentation img{
+        width: 80%;
+        margin-bottom: 80px;
+    }
+
+    .sugarskull .focuspoints{
+        border-top: 3px solid #dc001a;
+        border-bottom: 3px solid #dc001a;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .sugarskull .focuspoints h3{
+        font-size: 35px;
+        margin-bottom: 2px;
+        text-align: center;
+    }
+
+    /*Walking pink sektion*/
+    .walkinpink{
+        margin-bottom: 50px;
+    }
+
+    .walkinpink .page-title h1{
+        font-size: 50px;
+        margin: 60px 20px 0 25px;
+    }
+
+    .walkinpink .presentation img{
+        width: 80%;
+        margin-bottom: 80px;
+    }
+
+    .walkinpink .focuspoints{
+        border-top: 3px solid #dc001a;
+        border-bottom: 3px solid #dc001a;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        margin-bottom: 50px;
+    }
+
+    .walkinpink .focuspoints h3{
+        font-size: 35px;
+        margin-bottom: 2px;
+        text-align: center;
+    }
+
+    /*Den evige evighedsmaskine sektion*/
+    .forever{
+        margin-bottom: 50px;
+    }
+
+    .forever .page-title h1{
+        font-size: 50px;
+        margin: 0 20px 0 25px;
+    }
+
+    .forever .presentation img{
+        width: 80%;
+        margin-bottom: 80px;
+    }
+
+    .forever .focuspoints{
+        border-top: 3px solid #dc001a;
+        border-bottom: 3px solid #dc001a;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .forever .focuspoints h3{
+        font-size: 35px;
+        margin-bottom: 2px;
+        text-align: center;
+    }
+
+    .forever .infoforever p{
+        font-size: 22px;
+        text-align: center;
+        padding: 20px 0 20px 0;
+    }
+
+    /*Formidlingsvideo sektion sektion*/
+    .formidling .page-title h1{
+        font-size: 50px;
+        margin: 60px 20px 0 25px;
+    }
+
+    .formidling .presentation img{
+        width: 80%;
+        margin-bottom: 80px;
+    }
+
+    .formidling .focuspoints{
+        border-top: 3px solid #f7f7f7;
+        border-bottom: 3px solid #f7f7f7;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        margin-bottom: 50px;
+    }
+
+    .formidling .focuspoints h3{
+        font-size: 35px;
+        margin-bottom: 2px;
+        text-align: center;
+    }
     /*SLUT - Medie queries til egne projekter siden*/
 
 
