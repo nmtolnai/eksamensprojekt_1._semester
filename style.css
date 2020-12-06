@@ -1106,7 +1106,6 @@ video{
 
     /*CSS for tidlinjen kommer her*/
     /*Den verticale linje for tidslinjen*/
-
     .timeline::after{
         width: 2px;
         left: 50%;
@@ -1114,7 +1113,6 @@ video{
 
     /*tekst*/
     .content{
-        color: #f7f7f7;
         margin: 0;
         font-weight: lighter;
         padding: 0;
@@ -1159,10 +1157,22 @@ video{
         width: 100%;
     }
     /*SLUT - tidslinje*/
-
     /*SLUT - Medie Queries CSS til index-siden*/
 
     /*Medie Queries CSS til udvalgte projekter-siden*/
+    /*Den verticale linje for tidslinjen*/
+    .timeline-2::after{
+        width: 2px;
+        left: 50%;
+    }
+
+    /*tekst*/
+    .content-2{
+        color: #1c1c1c;
+        margin: 0;
+        font-weight: lighter;
+        padding: 0;
+    }
     /*SLUT - Medie Queries CSS til udvalgte projekter-siden*/
 
     /*Medie Queries CSS til egne projekter-siden*/
