@@ -954,13 +954,166 @@ video{
         width: 150px;
         font-size: 20px;
     }
-
-
-
     /*SLUT - Medie queries til de udvalgte projekters sider, heraf mana til rumrejsen*/
-
-
-
-
-
 }
+/*SLUT - Medie queries til tablet*/
+
+/*______________________________________________________________________________*/
+
+/*Medie Queries min. 1024px til desktop*/
+@media screen and (min-width:1024px){
+    /*Medie Queries til CSS der går igennem alle siderne*/
+    /*Header begynder her*/
+    header{
+        min-height: 29rem;
+    }
+
+    /*Logo*/
+    .logo{
+        width: 30%;
+    }
+
+    /*Streger til burger menu*/
+    span{
+        display: none;
+    }
+
+    .nav-desktop{
+        display: flex;
+    }
+
+    .nav-desktop a{
+        color: #f7f7f7;
+        text-decoration: none;
+        font-size: 20px;
+        letter-spacing: 1px;
+        font-weight: lighter;
+        margin: 40px 10px 0 30px;
+        cursor: pointer;
+    }
+
+    .nav-desktop a:hover{
+        text-decoration: underline 2px #dc001a;
+    }
+
+    /*navne logoet med N M TOLNAI*/
+    .name-logo img{
+        width: 45%;
+        margin-top: 80px;
+    }
+    /*SLUT - Header*/
+
+    /*CSS til sidernes title*/
+    .page-title{
+        font-size: 35px;
+        margin: 25px 20px 0 25px;
+    }
+
+    .grafic-img{
+        width: 50%;
+    }
+
+    .grafic-img2{
+        width: 70%;
+        margin-top: 70px;
+    }
+
+    .selected-projects .btn{
+        margin-top: 60px;
+    }
+
+    /*Knap design på siderne*/
+    .btn{
+        width: 140px;
+        font-size: 15px;
+        padding: 7px 0;
+    }
+
+    /*Footer*/
+    footer{
+        display: flex;
+        justify-content: space-between;
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+
+    .logoer{
+        display: block;
+        margin: auto 0 auto 0 ;
+    }
+    
+    .name{
+        width: 55%;
+    }
+    
+    .sphynx{
+        width: 25%;
+        margin-top: 20px;
+    }
+
+    .info h3{
+        margin-top: 30px;
+        font-size: 10px;
+    }
+    
+    .info p{
+        font-size: 15px;
+    }
+    /*SLUT - Footer*/
+    /*SLUT - Medie Queries til CSS der går igennem alle siderne*/
+
+    /*Medie Queries CSS til index-siden*/
+    /*sektion med kompetencer og vision*/
+    .visionskills{
+        border-style: none solid none solid;
+        border-color: #1c1c1c;
+        border-width: 3px;
+        display: flex;
+        justify-content: space-evenly;
+        padding: 0;
+        margin: 100px 90px 100px 90px;
+        color: #1c1c1c;
+    }
+
+    .skills{
+        margin-left: 40px;
+        padding: 30px 0 30px 0;
+    }
+
+    .skills h2{
+        font-size: 20px;
+    }
+
+    .skills h3{
+        font-size: 28px;
+    }
+
+    .vision{
+        margin: 0 40px 0 80px;
+        padding: 30px 0 30px 0;
+    }
+
+    .vision h2{
+        font-size: 20px;
+    }
+
+    .vision p{
+        font-size: 15px;
+        letter-spacing: 1px;
+        line-height: 20px;
+    }
+    /*SLUT - Medie Queries CSS til index-siden*/
+
+    /*Medie Queries CSS til udvalgte projekter-siden*/
+    /*SLUT - Medie Queries CSS til udvalgte projekter-siden*/
+
+    /*Medie Queries CSS til egne projekter-siden*/
+    /*SLUT - Medie Queries CSS til egne projekter-siden*/
+
+    /*Medie Queries CSS til kontakt mig-siden*/
+    /*SLUT - Medie Queries CSS til kontakt mig-siden*/
+
+    /*Medie Queries CSS til de forskellige projekters sider, heraf mana til rumrejsen*/
+    /*SLUT - Medie Queries CSS til de forskellige projekters sider, heraf mana til rumrejsen*/
+}
+/*SLUT - Medie queries til desktop*/
