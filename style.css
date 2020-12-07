@@ -893,7 +893,7 @@ video{
 
     /*Medie queries til kontakt mig siden*/
     .MyInfo .page-title h1{
-        font-size: 40;
+        font-size: 40px;
         padding: 0 20px 0 20px;
     }
 
@@ -1009,7 +1009,7 @@ video{
     }
 
     .nav-desktop a:hover{
-        text-decoration: underline 2px #dc001a;
+        text-decoration: underline #dc001a;
     }
 
     /*navne logoet med N M TOLNAI*/
