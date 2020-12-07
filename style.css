@@ -622,6 +622,8 @@ video{
     }
     /*SLUT - Header*/
 
+    /*______________________________________________________________________________*/
+
     /*CSS til sidernes title*/
     .page-title{
         font-size: 35px;
@@ -634,6 +636,8 @@ video{
         font-size: 25px;
         padding: 7px 0;
     }
+
+    /*______________________________________________________________________________*/
 
     /*Footer*/
     footer{
@@ -662,6 +666,8 @@ video{
     /*SLUT - Footer*/
     /*SLUT - Medie Queries til CSS der går igennem alle siderne*/
 
+    /*______________________________________________________________________________*/
+
     /*Medie Queries til index siden*/
     /*sektion med kompetencer og vision*/
     .visionskills{
@@ -679,7 +685,6 @@ video{
 
     .skills h3{
         font-size: 33px;
-        
     }
 
     /*Vision afsnit*/
@@ -697,6 +702,8 @@ video{
         line-height: 20px;
     }
     /*SLUT - sektion med kompetencer og vision*/
+
+    /*______________________________________________________________________________*/
 
     /*CSS for tidlinjen kommer her*/
     /*Den verticale linje for tidslinjen*/
@@ -735,6 +742,8 @@ video{
     }
     /*SLUT - Medie Queries til index siden*/
 
+    /*______________________________________________________________________________*/
+
     /*Medie queries til udvalgte projekter siden*/
     /*CSS for tidlinjen kommer her*/
     /*Den verticale linje for tidslinjen*/
@@ -765,6 +774,8 @@ video{
         border: 3px solid #dc001a;
     }
     /*SLUT - Medie queries til udvalgte projekter siden*/
+
+    /*______________________________________________________________________________*/
 
     /*Medie queries til egne projekter siden*/
     /*Sugarskull sektion*/
@@ -878,6 +889,8 @@ video{
     }
     /*SLUT - Medie queries til egne projekter siden*/
 
+    /*______________________________________________________________________________*/
+
     /*Medie queries til kontakt mig siden*/
     .MyInfo .page-title h1{
         font-size: 40;
@@ -914,6 +927,8 @@ video{
         line-height: 25px;
     }
     /*SLUT - Medie queries til kontakt mig siden*/
+
+    /*______________________________________________________________________________*/
 
     /*Medie queries til de udvalgte projekters sider, heraf mana til rumrejsen*/
     .img-mobile{
@@ -999,10 +1014,12 @@ video{
 
     /*navne logoet med N M TOLNAI*/
     .name-logo img{
-        width: 40%;
+        width: 35%;
         margin-top: 80px;
     }
     /*SLUT - Header*/
+
+    /*______________________________________________________________________________*/
 
     /*CSS til sidernes title*/
     .page-title{
@@ -1029,6 +1046,8 @@ video{
         font-size: 15px;
         padding: 7px 0;
     }
+
+    /*______________________________________________________________________________*/
 
     /*Footer*/
     footer{
@@ -1062,6 +1081,8 @@ video{
     }
     /*SLUT - Footer*/
     /*SLUT - Medie Queries til CSS der går igennem alle siderne*/
+
+    /*______________________________________________________________________________*/
 
     /*Medie Queries CSS til index-siden*/
     /*sektion med kompetencer og vision*/
@@ -1103,6 +1124,8 @@ video{
         letter-spacing: 1px;
         line-height: 20px;
     }
+
+    /*______________________________________________________________________________*/
 
     /*CSS for tidlinjen kommer her*/
     /*Den verticale linje for tidslinjen*/
@@ -1159,6 +1182,8 @@ video{
     /*SLUT - tidslinje*/
     /*SLUT - Medie Queries CSS til index-siden*/
 
+    /*______________________________________________________________________________*/
+
     /*Medie Queries CSS til udvalgte projekter-siden*/
     /*Den verticale linje for tidslinjen*/
     .timeline-2::after{
@@ -1174,6 +1199,8 @@ video{
         padding: 0;
     }
     /*SLUT - Medie Queries CSS til udvalgte projekter-siden*/
+
+    /*______________________________________________________________________________*/
 
     /*Medie Queries CSS til egne projekter-siden*/
     /*titler på siden*/
@@ -1256,6 +1283,8 @@ video{
     }
     /*SLUT - Medie Queries CSS til egne projekter-siden*/
 
+    /*______________________________________________________________________________*/
+
     /*Medie Queries CSS til kontakt mig-siden*/
     .MyInfo .oplysninger p{
         font-size: 16px;
@@ -1284,7 +1313,65 @@ video{
     }
     /*SLUT - Medie Queries CSS til kontakt mig-siden*/
 
+    /*______________________________________________________________________________*/
+
     /*Medie Queries CSS til de forskellige projekters sider, heraf mana til rumrejsen*/
+    /*røde cover billede*/
+    .presentation img{
+        width: 60%;
+        margin: 40px auto;
+    }
+
+    /*Sektion med punkter og om-tekst*/
+    .about-info{
+        padding: 100px 80px 100px 80px;
+        color: #f7f7f7;
+    }
+
+    .focus-about{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-left: 18%;
+        margin-bottom: 80px;
+    }
+
+    .about-info .focuspoints{
+        text-align: start;
+    }
+
+    .about-info .focuspoints h3{
+        font-size: 22px;
+        margin-bottom: 5px;
+    }
+
+    .about-info .about{
+        margin-top:0;
+    }
+
+    .about-info .about p{
+        font-size: 13px;
+        letter-spacing: 1px;
+        line-height: 20px;
+        text-align: start;
+        padding: 0 100px;
+    }
+
+    /*stort billede af hjemmesiden*/
+    .img-website img{
+        width: 50%;
+        margin: 60px auto;
+    }
+
+    /*mobilbillede af hjemmesiden*/
+    .img-mobile-expand{
+        margin-bottom: 1px;
+    }
+
+    .img-mobile-expand img{
+        width: 50%;
+    }
+    
     /*SLUT - Medie Queries CSS til de forskellige projekters sider, heraf mana til rumrejsen*/
 }
 /*SLUT - Medie queries til desktop*/
