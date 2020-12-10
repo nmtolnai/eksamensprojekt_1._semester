@@ -981,7 +981,7 @@ video{
     /*Medie Queries til CSS der går igennem alle siderne*/
     /*Header begynder her*/
     header{
-        background-image: url(./billeder/header_billede_desktop.jpg);
+        background-image: url(./billeder/header_desktop.jpg);
         background-repeat: no-repeat;
         background-size: 100% auto;
         min-height: 25rem;
