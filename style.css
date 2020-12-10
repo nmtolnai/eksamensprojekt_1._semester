@@ -581,6 +581,32 @@ video{
     padding-bottom: 30px;
 }
 /*SLUT - CSS til kontakt mig siden*/
+/*______________________________________________________________________________*/
+
+/*Medie Queries til header min. 568px til mobil når den er "lagt ned"*/
+@media screen and (min-width:568px){
+    /*Header*/
+    header{
+        background-image: url(./billeder/header_billede_desktop.jpg);
+        background-repeat: no-repeat;
+        background-size: 100% auto;
+        min-height: 12rem;
+    }
+
+    /*navne logoet med N M TOLNAI*/
+    .name-logo img{
+        width: 30%;
+        margin-top: 0;
+    }
+
+    /*rød logo inde i burgermenuen*/
+    .red-logo{
+        width: 20%;
+        margin: 5rem auto 1rem auto;
+    }
+}
+/*SLUT - Medie Queries til header min. 568px til mobil når den er "lagt ned"*/
+
 
 /*______________________________________________________________________________*/
 
@@ -589,6 +615,9 @@ video{
     /*Medie Queries til CSS der går igennem alle siderne*/
     /*Header begynder her*/
     header{
+        background-image: url(./billeder/header_billede.jpg);
+        background-repeat: no-repeat;
+        background-size: 100% auto;
         min-height: 21rem;
     }
 
@@ -981,7 +1010,10 @@ video{
     /*Medie Queries til CSS der går igennem alle siderne*/
     /*Header begynder her*/
     header{
-        min-height: 29rem;
+        background-image: url(./billeder/header_billede.jpg);
+        background-repeat: no-repeat;
+        background-size: 100% auto;
+        min-height: 28rem;
     }
 
     /*Logo*/
@@ -1014,7 +1046,7 @@ video{
 
     /*navne logoet med N M TOLNAI*/
     .name-logo img{
-        width: 35%;
+        width: 40%;
         margin-top: 80px;
     }
     /*SLUT - Header*/
@@ -1375,3 +1407,36 @@ video{
     /*SLUT - Medie Queries CSS til de forskellige projekters sider, heraf mana til rumrejsen*/
 }
 /*SLUT - Medie queries til desktop*/
+
+/*______________________________________________________________________________*/
+
+/*Medie Queries min. 1280px til desktop*/
+@media screen and (min-width:1280px){
+    /*Medie Queries til CSS der går igennem alle siderne*/
+    /*Header begynder her*/
+    header{
+        background-image: url(./billeder/header_billede_desktop.jpg);
+        background-repeat: no-repeat;
+        background-size: 100% auto;
+        min-height: 25rem;
+    }
+
+    /*navne logoet med N M TOLNAI*/
+    .name-logo img{
+        width: 30%;
+        margin-top: 45px;
+    }
+    /*SLUT - Header*/
+
+    /*Indexsiden (forsiden)*/
+    .grafic-img{
+        width: 40%;
+    }
+
+    .grafic-img2{
+        width: 50%;
+        margin-top: 70px;
+    }
+    /*SLUT - Indexsiden (forsiden)*/
+}
+/*SLUT - Medie Queries min. 1280px til desktop*/
