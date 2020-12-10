@@ -981,7 +981,10 @@ video{
     /*Medie Queries til CSS der går igennem alle siderne*/
     /*Header begynder her*/
     header{
-        min-height: 29rem;
+        background-image: url(./billeder/header_billede_desktop.jpg);
+        background-repeat: no-repeat;
+        background-size: 100% auto;
+        min-height: 25rem;
     }
 
     /*Logo*/
@@ -1014,8 +1017,8 @@ video{
 
     /*navne logoet med N M TOLNAI*/
     .name-logo img{
-        width: 35%;
-        margin-top: 80px;
+        width: 30%;
+        margin-top: 40px;
     }
     /*SLUT - Header*/
 
